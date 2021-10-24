@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+.skillsection {
+  height: 100vh;
+  width: 100%;
+  background-color: yellow;
+  /* margin-top: 10px; */
+  background-image: linear-gradient(to left, #fff 60%, #c3f5ff 40%);
+}
+.skillcontent {
+  text-align: center;
+  position: relative;
+  height: 60px;
+  background: chocolate;
+}
+.skillcontent h2 {
+  margin-top: 15px;
+  font-size: 36px;
+  font-weight: 500;
+}
+.skillcontent h2::after {
+  content: "";
+  height: 3px;
+  width: 100px;
+  top: 50%;
+  left: 58%;
+  position: absolute;
+  background: #000;
+}
+.skillcontent h2::before {
+  content: "";
+  height: 3px;
+  width: 100px;
+  top: 50%;
+  left: 35%;
+  position: absolute;
+  background: #000;
+}
+.skillcontainer {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  /* border:1px solid rgb(195, 216, 195); */
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.skillcontainer > div {
+  /* background-color: #f1f1f1; */
+  width: 400px;
+  height: 400px;
+  /* border:1px solid rgb(195, 216, 195); */
+  /* margin: 50px; */
+  /* text-align: center; */
+
+  /* line-height: 75px; */
+  /* font-size: 30px; */
+}
+.skillcontainer .cont h2 {
+  margin-top: 5%;
+  text-align: center;
+  /* font-size: 40px; */
+}
+.skillcontainer .cont p {
+  margin-top: 20%;
+  font-size: 20px;
+}
+@media (max-width: 800px) {
+  .skillcontainer {
+    flex-direction: column;
+  }
+}
+/* .skillcontainer .my_progress{
+    top:60px;
+} */
+/* .my_progress{
+     
+  } */
+.my_progress h4 {
+  margin-top: 8%;
+  text-align: left;
+  /* margin: 0; */
+}
+/* .prog .w3-container{
+    left: 10px;
+} */

@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/* .main{
+    position: relative;
+} */
+/* .container{
+    color:red;
+    height:100px;
+    width:auto;
+    background-color: rosybrown;
+    position: relative;
+} */
+.contact{
+    height:740px;
+    width:100%;
+    /* background-color: blue; */
+    /* margin-top: 5px; */
+    
+    background-image: linear-gradient(to left, #fff 50%,#c3f5ff 50%);
+}
+
+.body_title .head{
+    color:#fff;
+    height: 40px;
+    width: 100%;
+    top:10px;
+    background: chocolate;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.body_title .head .first{
+    display: flex;
+    position: relative;
+}
+.body_title .head .box .ic{
+    display: flex;
+}
+.body_title .head .first .add{
+    display: flex;
+    
+
+  
+}
+.body_title .head .first .add p{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: animate2 1s linear infinite;
+    animation-direction: alternate;
+    /* left: 10px; */
+    color: darkblue;
+}
+@keyframes animate2{
+    from{padding left: 20px;}
+    to{  padding-right: 30px;}
+
+}
+
+
+ .body_title{
+    height: 60px;
+    background: chocolate;
+    position: relative;
+   
+}
+
+
+.body_title h2{
+    color: black;
+    margin-top: 15;
+    font-size: 36;
+    font-weight: 500;
+    text-align: center;
+    /* background-color: blueviolet; */
+   
+    
+}
+.body_title h2::after{
+    content: "";
+    height: 3px;
+    width:100px;
+    top:50%;
+    left:56%;
+    position: absolute;
+    background: #000;
+}
+.body_title h2::before{
+    content: "";
+    height: 3px;
+    width:100px;
+    top:50%;
+    left:38%;
+    position: absolute;
+    background: #000;
+}
+
+.bodypart .row .column{
+    float: left;
+    height: 475px;
+    width: 50%;
+    /* padding: 0px; */
+    margin-top: 10px;
+   
+    
+    color: rgb(17, 16, 16);
+    /* border: 2px solid rgb(10, 10, 10); */
+    position:relative;
+    /* overflow: hidden; */
+}
+.try{
+    height: 310px;
+    width: 300px;
+    /* background-image: url("assets/image/contact2.jpg"); */
+   
+    float: right;
+    margin-top: 30px;
+    margin-right: 200px;
+    border-radius: 50%;
+    border:2px solid black;
+    overflow: hidden;
+    
+}
+.try img{
+    height: 300px ;
+    width: 300px;
+}
+.contactsection{
+    position: relative;
+    /* min-height: 100vh; */
+    /* height: 100vh; */
+    padding: 40px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 10px;
+   
+
+}
+.contactsection .content{
+    max-width: 800px;
+    text-align: center;
+}
+.content h2{
+    font-size: 36px;
+    font-weight: 500px;
+
+}
+   .content p{
+       
+       font-weight: 300px;
+   }
+
+   .container{
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10px;
+   }
+
+   .container .contactInfo{
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+   }
+   .container .contactInfo .box{
+       position: relative;
+       padding: 20px 0;
+       display:flex;
+   }
+   .container .contactInfo .box .icon{
+       min-width: 60px;
+       height: 60px;
+       border-radius: 50%;
+       font-size: 22px;
+       background: #fff;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .container .contactInfo .box .text{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 16px;
+   }
+   
+   .contactform{
+       width:40%;
+       padding:40px;
+       /* background: rgb(165, 65, 65);
+       */
+
+
+   }
+   .contactform h2{
+       font-size: 30px;
+   }
+   .contactform .inputbox{
+    position: relative;
+       width: 100%;
+       
+    
+       margin-top: 10px;
+   }
+   .contactform .inputbox input,
+   .contactform .inputbox textarea{
+       width: 100%;
+       height: 50px;
+       padding: 5px 0;
+       font-size: 16px;
+       border: none;
+       border-bottom: 2px solid #333;
+       outline: none;
+       margin:10px 0;
+       resize: none;
+   }
+   .contactform .inputbox span{
+       position: absolute;
+       left: 0;
+   }
+   
